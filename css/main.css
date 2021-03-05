@@ -9,6 +9,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+/* ...............Navigation............ */
 nav {
   background-color: #a64253;
   /* padding: 15px; */
@@ -24,6 +25,8 @@ nav a {
   /* margin-left: 20px; */
   margin-left: 1.25em;
 }
+
+/* ...............Header............ */
 
 header {
   height: 100vh;
@@ -62,6 +65,33 @@ header h1 {
 header p {
   font-size: 1.87em;
 }
+
+/* ...............section............ */
+section {
+  text-align: center;
+  /* padding: 1.87em; */
+  padding: 2.5em;
+}
+
+.bg-pink {
+  background-color: pink;
+  color: #fff;
+}
+
+.social-links {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-links a {
+  font-size: 1.87em;
+  color: #fff;
+  margin: 0 0.5em;
+}
+
+/* ...............Footer............ */
 
 footer {
   background-color: #a64253;
