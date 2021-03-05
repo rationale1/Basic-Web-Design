@@ -17,6 +17,11 @@ nav {
   color: #fff;
   display: flex;
   justify-content: flex-end;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 3;
 }
 
 nav a {
@@ -24,6 +29,10 @@ nav a {
   text-decoration: none;
   /* margin-left: 20px; */
   margin-left: 1.25em;
+}
+
+nav a:hover {
+  text-decoration: underline;
 }
 
 /* ...............Header............ */
@@ -79,7 +88,7 @@ section {
 }
 
 .social-links {
-  list-style: none;
+  list-style: underline;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -89,6 +98,25 @@ section {
   font-size: 1.87em;
   color: #fff;
   margin: 0 0.5em;
+}
+
+/* ...............Projects............ */
+.project {
+  max-width: 250px;
+  margin: 3em;
+}
+
+.project img {
+  min-width: 100%;
+}
+
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  /* max-width: 818px; */
+  margin: 20px auto 0;
 }
 
 /* ...............Footer............ */
