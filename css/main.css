@@ -88,9 +88,14 @@ section {
   color: #fff;
 }
 
+.bg-pink p {
+  padding: 1.2em;
+}
+
 .social-links {
   list-style: none;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
@@ -107,6 +112,7 @@ section {
   display: inline-flex;
   justify-content: center;
   align-items: center;
+  margin: 1em;
 }
 
 /* ...............Projects............ */
@@ -145,4 +151,11 @@ footer {
 
 footer .fa-heart {
   color: red;
+}
+
+/* ...............Media Query............ */
+@media (max-width: 440px) {
+  section {
+    padding: 20px;
+  }
 }
